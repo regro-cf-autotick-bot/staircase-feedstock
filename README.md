@@ -7,11 +7,15 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/staircase-feedstock/blob/master/LICENSE.txt)
 
-Summary: Modelling of quantitative state changes as step functions
+Summary: An open source library for (mathematical) step functions
 
 Development: https://github.com/venaturum/staircase
 
 Documentation: https://railing.readthedocs.io
+
+Staircase facilitates the modelling, manipulation
+and analysis of data with (mathematical) step functions
+
 
 Current build status
 ====================
