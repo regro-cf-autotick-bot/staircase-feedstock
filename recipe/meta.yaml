@@ -1,6 +1,6 @@
 {% set name = "staircase" %}
-{% set version = "1.6.1" %}
-{% set sha = "677dfb2604285d61cf1cab9e6533cc2a77fde5bb910ab76b19cf50442cd13bed" %}
+{% set version = "1.6.2" %}
+{% set sha = "c732fd752ce4dad4844efcb80880e791e4647e2f8114110c11d90a8b8fe39931" %}
 
 
 package:
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -20,6 +20,7 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - poetry
   run:
     - matplotlib-base >3.0.0,<4
     - numpy >=1.16.0,<2
@@ -31,15 +32,6 @@ requirements:
 test:
   imports:
     - staircase
-    - staircase.docstrings
-  source_files:
-    - tests
-  requires:
-    - pip
-    - pytest
-  commands:
-    - pytest tests
-    - python -m pip check
 
 about:
   home: https://github.com/venaturum/staircase
