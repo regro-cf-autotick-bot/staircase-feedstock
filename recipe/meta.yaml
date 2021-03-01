@@ -1,6 +1,6 @@
 {% set name = "staircase" %}
-{% set version = "1.6.2" %}
-{% set sha = "c732fd752ce4dad4844efcb80880e791e4647e2f8114110c11d90a8b8fe39931" %}
+{% set version = "1.6.3" %}
+{% set sha = "0f4446514ea79fdb4800050cca0ab9f92dc000acd49b9d9fe0dd150d4782bb30" %}
 
 
 package:
@@ -24,7 +24,7 @@ requirements:
   run:
     - matplotlib-base >3.0.0,<4
     - numpy >=1.16.0,<2
-    - pandas >=0.24,<2
+    - pandas >=0.24,<3
     - python >=3.6,<4
     - sortedcontainers >=2,<3
     - pytz
