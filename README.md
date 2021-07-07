@@ -123,5 +123,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@staircase-dev](https://github.com/staircase-dev/)
 * [@venaturum](https://github.com/venaturum/)
 
