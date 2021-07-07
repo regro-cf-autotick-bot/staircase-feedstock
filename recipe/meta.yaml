@@ -1,6 +1,6 @@
 {% set name = "staircase" %}
-{% set version = "1.6.5" %}
-{% set sha = "ac95bc8f7cb45bf41dae358d27817e0863e64200d60a66dc3fa7d77c74b51821" %}
+{% set version = "1.6.6" %}
+{% set sha = "db8199d287bd74e0f72980d5b425ff516cdab4718ce14f18bca0de540bbf69e5" %}
 
 
 package:
@@ -49,4 +49,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - staircase-dev
     - venaturum
