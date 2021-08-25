@@ -33,7 +33,7 @@ test:
     - staircase
 
 about:
-  home: https://github.com/venaturum/staircase
+  home: https://staircase.dev
   summary: A data analysis package based on modelling and manipulation of mathematical step functions. Strongly aligned with pandas.
   license: MIT
   license_file: LICENSE
