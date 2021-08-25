@@ -1,6 +1,6 @@
 {% set name = "staircase" %}
-{% set version = "1.6.6" %}
-{% set sha = "db8199d287bd74e0f72980d5b425ff516cdab4718ce14f18bca0de540bbf69e5" %}
+{% set version = "2.0.0" %}
+{% set sha = "4d317a08bcc6288f42f646d4694caf54e1d169556e5ada58bc1cec81e651a0ee" %}
 
 
 package:
@@ -26,7 +26,6 @@ requirements:
     - numpy >=1.16.0,<2
     - pandas >=0.24,<3
     - python >=3.6,<4
-    - sortedcontainers >=2,<3
     - pytz
 
 test:
@@ -35,16 +34,14 @@ test:
 
 about:
   home: https://github.com/venaturum/staircase
-  summary: Modelling of quantitative state changes as step functions
+  summary: A data analysis package based on modelling and manipulation of mathematical step functions. Strongly aligned with pandas.
   license: MIT
   license_file: LICENSE
-  summary: An open source library for (mathematical) step functions
   description: |
-    Staircase facilitates the modelling, manipulation 
-    and analysis of data with (mathematical) step functions
-  doc_url: https://railing.readthedocs.io
-  doc_source_url: https://github.com/venaturum/staircase/blob/master/docs/index.rst
-  dev_url: https://github.com/venaturum/staircase
+    A data analysis package based on modelling and manipulation of mathematical step functions. Strongly aligned with pandas.
+  doc_url: https://staircase.dev
+  doc_source_url: https://github.com/staircase-dev/staircase/blob/master/docs/index.rst
+  dev_url: https://github.com/staircase-dev/staircase
 
 
 extra:
