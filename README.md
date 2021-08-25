@@ -1,20 +1,19 @@
 About staircase
 ===============
 
-Home: https://github.com/venaturum/staircase
+Home: https://staircase.dev
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/staircase-feedstock/blob/master/LICENSE.txt)
 
-Summary: An open source library for (mathematical) step functions
+Summary: A data analysis package based on modelling and manipulation of mathematical step functions. Strongly aligned with pandas.
 
-Development: https://github.com/venaturum/staircase
+Development: https://github.com/staircase-dev/staircase
 
-Documentation: https://railing.readthedocs.io
+Documentation: https://staircase.dev
 
-Staircase facilitates the modelling, manipulation
-and analysis of data with (mathematical) step functions
+A data analysis package based on modelling and manipulation of mathematical step functions. Strongly aligned with pandas.
 
 
 Current build status
