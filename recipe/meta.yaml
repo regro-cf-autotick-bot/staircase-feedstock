@@ -19,13 +19,14 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6.1
+    - python >=3.6
     - poetry
   run:
     - matplotlib-base >3.0.0,<4
     - numpy >=1.16.0,<2
     - pandas >=1,<2
-    - python >=3.6.1,<4
+    - python >=3.6,<4
+    
 
 test:
   imports:
