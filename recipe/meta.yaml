@@ -1,6 +1,6 @@
 {% set name = "staircase" %}
-{% set version = "2.2.0" %}
-{% set sha = "d95562792b540654e01a162016d11deb16e55bbe0cc04f3867e4a5cf035d64bd" %}
+{% set version = "2.3.0" %}
+{% set sha = "3f6ca26bf9cc0e6c6bb1fb08071457d5c10522cc99e3031a961371f29b6a162f" %}
 
 
 package:
