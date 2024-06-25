@@ -1,6 +1,6 @@
 {% set name = "staircase" %}
-{% set version = "2.5.2" %}
-{% set sha = "606de1836987dbed7ad2d40e02e66baac990005fbaa724d37e02ee09a9530a3a" %}
+{% set version = "2.6.0" %}
+{% set sha = "91804af04f1566463eeb336f9109ceae330d93d7361570d32f934cbbbb5aec6e" %}
 
 
 package:
@@ -19,13 +19,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
     - poetry
   run:
     - matplotlib-base >3.0.0,<4
     - numpy >=1.16.0,<2
     - pandas >=1,<3
-    - python >=3.7,<4
+    - python >=3.8,<4
     - typing-extensions >=4.4.0
     - pytz
 
